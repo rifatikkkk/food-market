@@ -1,3 +1,9 @@
 {
+  "header": {
+    "cart": "Cart",
+    "searchBy": "Search by",
+    "login": "Login",
+    "city": "Saint Petersburg"
+  },
   "hello": "hello"
 }
