@@ -5,5 +5,27 @@
     "login": "Авторизоваться",
     "city": "Санкт-Петербург"
   },
+  "footer": {
+    "about": "О проекте",
+    "aboutUs": "О нас",
+    "ourBranches": "Наши филиалы",
+    "changeLog": "История изменений",
+    "quickLinks": "Быстрые ссылки",
+    "faqs": "Часто вопросы",
+    "recipes": "Чеки",
+    "contactUs": "Связаться с нами",
+    "helpSupport": "Помощь и поддержка",
+    "termsOfService": "Условия использования",
+    "privacyPolicy": "Политика конфиденциальности",
+    "security": "Безопасность",
+    "company": "Компания",
+    "blog": "Блог",
+    "contact": "Контакты",
+    "social": "Социальные сети",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "copyright": "Все права защищены @ {{year}} {{company}}"
+  },
   "hello": "привет"
 }
