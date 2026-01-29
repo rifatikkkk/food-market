@@ -27,5 +27,13 @@
     "twitter": "Twitter",
     "copyright": "All rights reserved @ {{year}} {{company}}"
   },
+  "pageLoader": {
+    "loading": "Loading..."
+  },
+  "pageError": {
+    "title": "Something went wrong",
+    "description": "Sorry - an unexpected error occurred. Please try refreshing the page or come back later.",
+    "reload": "Try again"
+  },
   "hello": "hello"
 }
