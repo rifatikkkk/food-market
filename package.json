@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
+    "lint:ts": "tsc",
     "lint": "eslint .",
+    "lint:scss": "stylelint **/*.scss",
     "preview": "vite preview",
     "test:unit": "vitest",
     "test:regression": "npx chromatic",
