@@ -1,3 +1,4 @@
+import { API_URL } from "./api/api";
 import {
   AuthProviders,
   AuthMethod,
@@ -29,6 +30,7 @@ export {
   useTheme,
   AuthProviders,
   AuthMethod,
+  API_URL,
   type AuthProvidersType,
   type AuthMethodType,
   type ThemeType,
