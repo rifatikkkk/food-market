@@ -1,5 +1,9 @@
-import type { StateSchema } from "./config/StateSchema";
+import type {
+  StateSchema,
+  StateSchemaKey,
+  ReduxStoreWithManager,
+} from "./config/StateSchema";
 import { createStore, type AppDispatch } from "./config/store";
 
 export { createStore };
-export type { StateSchema, AppDispatch };
+export type { StateSchema, StateSchemaKey, ReduxStoreWithManager, AppDispatch };

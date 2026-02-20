@@ -1,13 +1,20 @@
+import { DynamicModuleLoader } from "@/shared/lib";
+
 import styles from "./LoginPage.module.scss";
 
-import { LoginForm } from "@/features/login";
+import { LoginForm, loginReducer } from "@/features/login";
 
 const LoginPage = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.main}>
         <h1 className={styles.title}>Sign in</h1>
-        <LoginForm />
+        <DynamicModuleLoader
+          reducers={{ loginForm: loginReducer }}
+          removeAfterUnmount
+        >
+          <LoginForm />
+        </DynamicModuleLoader>
       </div>
     </div>
   );
