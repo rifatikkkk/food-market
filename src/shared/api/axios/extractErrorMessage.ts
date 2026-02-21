@@ -39,7 +39,7 @@ export const extractErrorMessage = (error: unknown) => {
   const code = extractErrorCode(error);
 
   if (code) {
-    const translated = i18n.t(`erros.${code}`);
+    const translated = i18n.t(`errors.${code}`);
     if (translated && translated !== `errors.${code}`) {
       return translated;
     }

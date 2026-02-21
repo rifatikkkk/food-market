@@ -17,7 +17,8 @@ export const register = createAsyncThunk<
   { rejectValue: string }
 >("features/register", async (authData, thunkApi) => {
   try {
-    await httpClient.post("/auth/register", authData);
+    const res = await httpClient.post("/auth/register", authData);
+    console.log(res);
     thunkApi.dispatch(registerActions.setStep(FormSteps.VERIFICATION));
   } catch (error) {
     thunkApi.dispatch(registerActions.setStep(FormSteps.CREDENTIALS));
